@@ -7,15 +7,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Hamming.Distance("", ""));
-            Console.WriteLine(Hamming.Distance("A", "A"));
-            Console.WriteLine(Hamming.Distance("G", "T"));
-            Console.WriteLine(Hamming.Distance("GGACTGAAATCTG", "GGACTGAAATCTG"));
-            Console.WriteLine(Hamming.Distance("GGACGGATTCTG", "AGGACGGATTCT"));
-            Console.WriteLine(Hamming.Distance("AATG", "AAA"));
-            Console.WriteLine(Hamming.Distance("ATA", "AGTG"));
-            Console.WriteLine(Hamming.Distance("", "G"));
-            Console.WriteLine(Hamming.Distance("G", ""));
+            var test = NucleotideCount.Count("");
+            test = NucleotideCount.Count("GGGGGGG");
+            test = NucleotideCount.Count("AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC");
         }
     }
 }
