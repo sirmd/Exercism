@@ -7,10 +7,15 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var sut = new HighScores(new List<int> { 100, 0, 90, 30 });
-            Console.WriteLine(sut.PersonalBest());
-
-            var list = sut.PersonalTopThree();
+            Console.WriteLine(Hamming.Distance("", ""));
+            Console.WriteLine(Hamming.Distance("A", "A"));
+            Console.WriteLine(Hamming.Distance("G", "T"));
+            Console.WriteLine(Hamming.Distance("GGACTGAAATCTG", "GGACTGAAATCTG"));
+            Console.WriteLine(Hamming.Distance("GGACGGATTCTG", "AGGACGGATTCT"));
+            Console.WriteLine(Hamming.Distance("AATG", "AAA"));
+            Console.WriteLine(Hamming.Distance("ATA", "AGTG"));
+            Console.WriteLine(Hamming.Distance("", "G"));
+            Console.WriteLine(Hamming.Distance("G", ""));
         }
     }
 }
