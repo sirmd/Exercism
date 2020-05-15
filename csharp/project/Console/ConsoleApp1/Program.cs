@@ -8,13 +8,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-
-            var sut = new Allergies(509);
-            Console.WriteLine(sut.IsAllergicTo(Allergen.Peanuts));
-
-            
-            sut = new Allergies(3);
-            Console.WriteLine(sut.IsAllergicTo(Allergen.Eggs));
+            Console.WriteLine(Pangram.IsPangram("\"Five quacking Zephyrs jolt my wax bed.\""));
+            Console.WriteLine(Pangram.IsPangram("7h3 qu1ck brown fox jumps ov3r 7h3 lazy dog"));
 
         }
     }
