@@ -1,5 +1,4 @@
 C:\Users\mated\Exercism\csharp\project\Console\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
-C:\Users\mated\Exercism\csharp\project\Console\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
 C:\Users\mated\Exercism\csharp\project\Console\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
 C:\Users\mated\Exercism\csharp\project\Console\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
 C:\Users\mated\Exercism\csharp\project\Console\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
@@ -11,3 +10,6 @@ C:\Users\mated\Exercism\csharp\project\Console\ConsoleApp1\bin\Debug\netcoreapp3
 C:\Users\mated\Exercism\csharp\project\Console\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
 C:\Users\mated\Exercism\csharp\project\Console\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
 C:\Users\mated\Exercism\csharp\project\Console\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
+C:\Users\mated\Exercism\csharp\project\Console\ConsoleApp1\bin\Debug\netcoreapp3.1\nunit.framework.dll
+C:\Users\mated\Exercism\csharp\project\Console\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\mated\Exercism\csharp\project\Console\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CopyComplete

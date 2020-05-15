@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NUnit.Framework;
+using System;
 using System.Collections.Generic;
 
 namespace ConsoleApp1
@@ -8,15 +9,13 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
-            Robot robot = new Robot();
-            Console.WriteLine(robot.Name);
-            Console.WriteLine(robot.Name);
+            var sut = new Allergies(509);
+            Console.WriteLine(sut.IsAllergicTo(Allergen.Peanuts));
 
-            Robot robot2 = new Robot();
-            Console.WriteLine(robot2.Name);
+            
+            sut = new Allergies(3);
+            Console.WriteLine(sut.IsAllergicTo(Allergen.Eggs));
 
-            robot.Reset();
-            Console.WriteLine(robot.Name);
         }
     }
 }

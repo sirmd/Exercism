@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "H6NVhstLyWS80/TAvZW7QUMf2PcuJoqHXEQHqVA+ciXfV5v+8m9zmQUgxoTx6MciTlZjRzLEEherQwl+q/PiZA==",
+  "dgSpecHash": "0ps5FqumAgXyoHb+gsF8gHM7U/GQXvcLpd0YaEIplU7dtctvwHfXf0q3CSgDIH5e7grJnwOnkQVHGZcspkkBCw==",
   "success": true,
   "projectFilePath": "C:\\Users\\mated\\Exercism\\csharp\\project\\Console\\ConsoleApp1\\ConsoleApp1.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mated\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\mated\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\mated\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512"
+  ],
   "logs": []
 }
