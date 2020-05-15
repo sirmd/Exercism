@@ -8,9 +8,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Pangram.IsPangram("\"Five quacking Zephyrs jolt my wax bed.\""));
-            Console.WriteLine(Pangram.IsPangram("7h3 qu1ck brown fox jumps ov3r 7h3 lazy dog"));
-
+            var sut = new GradeSchool();
+            sut.Add("Franklin", 5);
+            sut.Add("Bradley", 5);
+            sut.Add("Jeff", 1);
+            Console.WriteLine(sut.Grade(5));
+            
         }
     }
 }

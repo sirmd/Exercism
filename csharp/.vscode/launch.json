@@ -9,9 +9,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/hello-world/bin/Debug/netcoreapp3.0/HelloWorld.dll",
+            "program": "${workspaceFolder}/project/Console/ConsoleApp1/bin/Debug/netcoreapp3.1/ConsoleApp1.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/hello-world",
+            "cwd": "${workspaceFolder}/project",
             "console": "internalConsole",
             "stopAtEntry": false
         },
