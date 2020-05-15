@@ -7,9 +7,16 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var test = NucleotideCount.Count("");
-            test = NucleotideCount.Count("GGGGGGG");
-            test = NucleotideCount.Count("AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC");
+
+            Robot robot = new Robot();
+            Console.WriteLine(robot.Name);
+            Console.WriteLine(robot.Name);
+
+            Robot robot2 = new Robot();
+            Console.WriteLine(robot2.Name);
+
+            robot.Reset();
+            Console.WriteLine(robot.Name);
         }
     }
 }
