@@ -8,11 +8,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var sut = new GradeSchool();
-            sut.Add("Franklin", 5);
-            sut.Add("Bradley", 5);
-            sut.Add("Jeff", 1);
-            Console.WriteLine(sut.Grade(5));
+            Console.WriteLine(Isogram.IsIsogram("isogram"));
+            Console.WriteLine(Isogram.IsIsogram("eleven"));
             
         }
     }

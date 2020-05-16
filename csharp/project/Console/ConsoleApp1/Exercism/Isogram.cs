@@ -12,9 +12,7 @@ public static class Isogram
                     .Where(Char.IsLetter)
                     .GroupBy(w => w)
                     .ToDictionary(w => w.Key, w => w.Count())
-                    .Where(w=>w.Value > 1)
-                    .ToList()
-                    .Count;
+                    .Where(w=>w.Value > 1).ToList().Count;
         
 
     }
