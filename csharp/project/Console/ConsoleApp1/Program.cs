@@ -8,9 +8,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(RotationalCipher.Rotate("Let's eat, Grandma!", 21));
-            Console.WriteLine("Gzo'n zvo, Bmviyhv!");
-            Console.WriteLine(RotationalCipher.Rotate("Gur dhvpx oebja sbk whzcf bire gur ynml qbt.", 13));
+            var buffer = new CircularBuffer<int>(capacity: 1);
+            //buffer.Read();
+
+            buffer.Write(1);
+            buffer.Read();
+            buffer.Read();
 
 
         }
