@@ -8,13 +8,19 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var buffer = new CircularBuffer<int>(capacity: 1);
-            //buffer.Read();
 
-            buffer.Write(1);
-            buffer.Read();
-            buffer.Read();
+            var sut = new Clock(1, -4820);
+            var sut2 = new Clock(16, 40);
+            Console.WriteLine(sut.ToString());
 
+            if (sut2.Equals(sut))
+            {
+                Console.WriteLine("true");
+            }
+            else
+            {
+                Console.WriteLine("false");
+            }
 
         }
     }
