@@ -3,6 +3,11 @@
 // convenience to get you started writing code faster.
 //
 
-export const reverseString = () => {
-  throw new Error("Remove this statement and implement this function");
+export const reverseString = (string) => {
+  var reverse = "";
+  for (let index = string.length; index >= 0; index--) {
+    reverse += string.substring(index - 1,index);
+    
+  };
+  return reverse;
 };
