@@ -8,9 +8,11 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Isogram.IsIsogram("isogram"));
-            Console.WriteLine(Isogram.IsIsogram("eleven"));
-            
+            Console.WriteLine(RotationalCipher.Rotate("Let's eat, Grandma!", 21));
+            Console.WriteLine("Gzo'n zvo, Bmviyhv!");
+            Console.WriteLine(RotationalCipher.Rotate("Gur dhvpx oebja sbk whzcf bire gur ynml qbt.", 13));
+
+
         }
     }
 }
