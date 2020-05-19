@@ -4,8 +4,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\javascript\\resistor-color-duo\\resistor-color-duo.js",
-            "cwd": "${workspaceFolder}\\javascript\\resistor-color-duo"
+            "program": "${workspaceFolder}\\javascript\\gigasecond\\gigasecond.js",
+            "cwd": "${workspaceFolder}\\javascript\\gigasecond"
         }
     ]
 }
