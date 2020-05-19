@@ -4,8 +4,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\javascript\\gigasecond\\gigasecond.js",
-            "cwd": "${workspaceFolder}\\javascript\\gigasecond"
+            "program": "${workspaceFolder}\\javascript\\clock\\clock.js",
+            "cwd": "${workspaceFolder}\\javascript\\clock"
         }
     ]
 }
