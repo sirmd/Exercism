@@ -4,8 +4,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\javascript\\matrix\\matrix.js",
-            "cwd": "${workspaceFolder}\\javascript\\matrix"
+            "program": "${workspaceFolder}\\javascript\\saddle-points\\saddle-points.js",
+            "cwd": "${workspaceFolder}\\javascript\\saddle-points"
         }
     ]
 }
