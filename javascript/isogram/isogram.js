@@ -1,15 +1,14 @@
 export const isIsogram = (word) => {
-  var alphabetCount = ALPHABET.split('').reduce(function(map, obj) {
-    var wordCount = word.split(obj).length - 1
-    if (wordCount > 1 ) map[obj] = wordCount;
+  var alphabetCount = ALPHABET.split('').reduce(function (map, obj) {
+    // Split the word by the current alphabet letter
+    var wordCount = word.toLowerCase().split(obj).length - 1
+
+    // If the current alphabet letter appears more than once, map it
+    if (wordCount > 1) map[obj] = wordCount;
     return map;
   }, {});
 
-  var result = Object.assign({}, 
-    ...Object.entries(alphabetCount).filter(([key, value]) => value > 1).map(([key, value]) => ({[key]:value}))
-    );
-
-  return Object.keys(result).length == 0;
+  return Object.keys(alphabetCount).length == 0;
 };
 
 
