@@ -4,8 +4,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\javascript\\rna-transcription\\rna-transcription.js",
-            "cwd": "${workspaceFolder}\\javascript\\rna-transcription"
+            "program": "${workspaceFolder}\\javascript\\space-age\\rna-space-age.js",
+            "cwd": "${workspaceFolder}\\javascript\\space-age"
         }
     ]
 }
