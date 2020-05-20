@@ -4,8 +4,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\javascript\\clock\\clock.js",
-            "cwd": "${workspaceFolder}\\javascript\\clock"
+            "program": "${workspaceFolder}\\javascript\\rna-transcription\\rna-transcription.js",
+            "cwd": "${workspaceFolder}\\javascript\\rna-transcription"
         }
     ]
 }
