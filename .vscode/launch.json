@@ -4,8 +4,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\javascript\\beer-song\\beer-song.js",
-            "cwd": "${workspaceFolder}\\javascript\\beer-song"
+            "program": "${workspaceFolder}\\javascript\\pascals-triangle\\pascals-triangle.js",
+            "cwd": "${workspaceFolder}\\javascript\\pascals-triangle"
         }
     ]
 }

@@ -1,8 +1,19 @@
-//
-// This is only a SKELETON file for the 'Pascals Triangle' exercise. It's been provided as a
-// convenience to get you started writing code faster.
-//
+export const rows = (rowAmount) => {
+  var result = [];
 
-export const rows = () => {
-  throw new Error("Remove this statement and implement this function");
+  for (let row = 0; row < rowAmount; row++) {
+    var rowArray = [];
+    for (let col = 0; col < (row + 1); col++) {
+      var leftValue = col == 0 ? 0 : result[row - 1][col - 1];
+      var indexValue = (row < 1 ? 1 : result[row - 1][col]);
+      indexValue = indexValue === undefined ? 0 : indexValue;
+
+      rowArray[col] = leftValue + indexValue;
+
+    }
+
+    result.push(rowArray);
+  }
+
+  return result;
 };
