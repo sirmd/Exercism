@@ -4,8 +4,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\javascript\\bob\\bob.js",
-            "cwd": "${workspaceFolder}\\javascript\\bob"
+            "program": "${workspaceFolder}\\javascript\\beer-song\\beer-song.js",
+            "cwd": "${workspaceFolder}\\javascript\\beer-song"
         }
     ]
 }
