@@ -4,8 +4,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\javascript\\diamond\\diamond.js",
-            "cwd": "${workspaceFolder}\\javascript\\diamond"
+            "program": "${workspaceFolder}\\javascript\\grade-school\\grade-school.js",
+            "cwd": "${workspaceFolder}\\javascript\\grade-school"
         }
     ]
 }
