@@ -4,8 +4,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\javascript\\grade-school\\grade-school.js",
-            "cwd": "${workspaceFolder}\\javascript\\grade-school"
+            "program": "${workspaceFolder}\\javascript\\list-ops\\list-ops.js",
+            "cwd": "${workspaceFolder}\\javascript\\list-ops"
         }
     ]
 }
