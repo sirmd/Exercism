@@ -4,8 +4,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\javascript\\two-bucket\\two-bucket.js",
-            "cwd": "${workspaceFolder}\\javascript\\two-bucket"
+            "program": "${workspaceFolder}\\javascript\\strain\\strain.js",
+            "cwd": "${workspaceFolder}\\javascript\\strain"
         }
     ]
 }
