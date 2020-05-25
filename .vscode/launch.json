@@ -4,8 +4,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\javascript\\protein-translation\\protein-translation.js",
-            "cwd": "${workspaceFolder}\\javascript\\protein-translation"
+            "program": "${workspaceFolder}\\javascript\\armstrong-numbers\\armstrong-numbers.js",
+            "cwd": "${workspaceFolder}\\javascript\\armstrong-numbers"
         }
     ]
 }
