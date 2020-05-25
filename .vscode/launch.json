@@ -4,8 +4,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\javascript\\robot-name\\robot-name.js",
-            "cwd": "${workspaceFolder}\\javascript\\robot-name"
+            "program": "${workspaceFolder}\\javascript\\protein-translation\\protein-translation.js",
+            "cwd": "${workspaceFolder}\\javascript\\protein-translation"
         }
     ]
 }
