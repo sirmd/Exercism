@@ -4,8 +4,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\javascript\\list-ops\\list-ops.js",
-            "cwd": "${workspaceFolder}\\javascript\\list-ops"
+            "program": "${workspaceFolder}\\javascript\\two-bucket\\two-bucket.js",
+            "cwd": "${workspaceFolder}\\javascript\\two-bucket"
         }
     ]
 }

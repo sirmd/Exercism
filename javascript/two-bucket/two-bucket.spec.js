@@ -18,7 +18,7 @@ describe('TwoBucket', () => {
       expect(twoBucket.otherBucket).toEqual(5);
     });
 
-    xtest('starting with bucket two', () => {
+    test('starting with bucket two', () => {
       const starterBuck = 'two';
       const twoBucket = new TwoBucket(buckOne, buckTwo, goal, starterBuck);
       expect(twoBucket.moves()).toEqual(8);
@@ -32,7 +32,7 @@ describe('TwoBucket', () => {
     const buckTwo = 11;
     const goal = 2;
 
-    xtest('starting with bucket one', () => {
+    test('starting with bucket one', () => {
       const starterBuck = 'one';
       const twoBucket = new TwoBucket(buckOne, buckTwo, goal, starterBuck);
       expect(twoBucket.moves()).toEqual(14);
@@ -40,7 +40,7 @@ describe('TwoBucket', () => {
       expect(twoBucket.otherBucket).toEqual(11);
     });
 
-    xtest('starting with bucket two', () => {
+    test('starting with bucket two', () => {
       const starterBuck = 'two';
       const twoBucket = new TwoBucket(buckOne, buckTwo, goal, starterBuck);
       expect(twoBucket.moves()).toEqual(18);
