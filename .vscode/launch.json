@@ -4,8 +4,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\javascript\\armstrong-numbers\\armstrong-numbers.js",
-            "cwd": "${workspaceFolder}\\javascript\\armstrong-numbers"
+            "program": "${workspaceFolder}\\javascript\\run-length-encoding\\run-length-encoding.js",
+            "cwd": "${workspaceFolder}\\javascript\\run-length-encoding"
         }
     ]
 }
