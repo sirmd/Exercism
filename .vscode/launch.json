@@ -4,8 +4,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\javascript\\darts\\darts.js",
-            "cwd": "${workspaceFolder}\\javascript\\darts"
+            "program": "${workspaceFolder}\\javascript\\sieve\\sieve.js",
+            "cwd": "${workspaceFolder}\\javascript\\sieve"
         }
     ]
 }
