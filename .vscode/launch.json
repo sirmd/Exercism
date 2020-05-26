@@ -4,8 +4,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\javascript\\roman-numerals\\roman-numerals.js",
-            "cwd": "${workspaceFolder}\\javascript\\roman-numerals"
+            "program": "${workspaceFolder}\\javascript\\darts\\darts.js",
+            "cwd": "${workspaceFolder}\\javascript\\darts"
         }
     ]
 }
