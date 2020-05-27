@@ -4,8 +4,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\javascript\\sieve\\sieve.js",
-            "cwd": "${workspaceFolder}\\javascript\\sieve"
+            "program": "${workspaceFolder}\\javascript\\simple-cipher\\simple-cipher.js",
+            "cwd": "${workspaceFolder}\\javascript\\simple-cipher"
         }
     ]
 }
