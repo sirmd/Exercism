@@ -4,8 +4,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\javascript\\simple-cipher\\simple-cipher.js",
-            "cwd": "${workspaceFolder}\\javascript\\simple-cipher"
+            "program": "${workspaceFolder}\\javascript\\atbash-cipher\\atbash-cipher.js",
+            "cwd": "${workspaceFolder}\\javascript\\atbash-cipher"
         }
     ]
 }
