@@ -4,8 +4,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\javascript\\atbash-cipher\\atbash-cipher.js",
-            "cwd": "${workspaceFolder}\\javascript\\atbash-cipher"
+            "program": "${workspaceFolder}\\javascript\\wordy\\wordy.js",
+            "cwd": "${workspaceFolder}\\javascript\\wordy"
         }
     ]
 }
