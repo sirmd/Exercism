@@ -4,8 +4,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\javascript\\secret-handshake\\secret-handshake.js",
-            "cwd": "${workspaceFolder}\\javascript\\secret-handshake"
+            "program": "${workspaceFolder}\\javascript\\sum-of-multiples\\sum-of-multiples.js",
+            "cwd": "${workspaceFolder}\\javascript\\sum-of-multiples"
         }
     ]
 }
