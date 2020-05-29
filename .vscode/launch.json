@@ -4,8 +4,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\javascript\\wordy\\wordy.js",
-            "cwd": "${workspaceFolder}\\javascript\\wordy"
+            "program": "${workspaceFolder}\\javascript\\kindergarten-garden\\kindergarten-garden.js",
+            "cwd": "${workspaceFolder}\\javascript\\kindergarten-garden"
         }
     ]
 }
