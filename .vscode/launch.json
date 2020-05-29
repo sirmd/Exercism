@@ -4,8 +4,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\javascript\\sum-of-multiples\\sum-of-multiples.js",
-            "cwd": "${workspaceFolder}\\javascript\\sum-of-multiples"
+            "program": "${workspaceFolder}\\javascript\\minesweeper\\minesweeper.js",
+            "cwd": "${workspaceFolder}\\javascript\\minesweeper"
         }
     ]
 }
