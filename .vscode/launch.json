@@ -4,8 +4,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}\\javascript\\kindergarten-garden\\kindergarten-garden.js",
-            "cwd": "${workspaceFolder}\\javascript\\kindergarten-garden"
+            "program": "${workspaceFolder}\\javascript\\secret-handshake\\secret-handshake.js",
+            "cwd": "${workspaceFolder}\\javascript\\secret-handshake"
         }
     ]
 }
