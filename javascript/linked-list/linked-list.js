@@ -1,50 +1,82 @@
+function LinkedList() {
+	let head = { id: null, isHead: true };
+	let tail = { id: null, isTail: true };
+	head.next = tail;
+	tail.prev = head;
 
-export class LinkedList {
-  constructor() {
-    this.head = {};
-    this.tail = {};
-    this.head.next = this.tail;
-    this.tail.prev = this.head;
-  }
+	const push = (id) => {
+		const node = {
+			id,
+			next: tail,
+			prev: tail.prev,
+		};
+		node.prev.next = node;
+		node.next.prev = node;
+	};
 
-  firstNode = () => this.head.next;
-  lastNode = () => this.tail.prev;
-  count = () => [...this.nodes()].length;
+	const unshift = (id) => {
+		const node = {
+			id,
+			next: head.next,
+			prev: head
+		};
+		node.prev.next = node;
+		node.next.prev = node;
+	};
 
-  *nodes() {
-    for (let node = this.firstNode(); node !== this.tail; node = node.next) {
-      yield node;
-    }
-  }
-  
-  del = (node) => {
-    node.prev.next = node.next;
-    node.next.prev = node.prev;
-    return node.data
-  }
+	const pop = () => {
+		const node = tail.prev;
+		tail.prev = node.prev;
+		node.prev.next = tail;
+		return node.id;
+	};
 
-  insert = (data, node) => {
-    const next = node.next;
-    node.next = next.prev = { data, node, next };
-  }
+	const shift = () => {
+		const node = head.next;
+		head.next = node.next;
+		node.next.prev = head;
+		return node.id;
+	}
 
-  find = (data) => {
-    for (const node of this.nodes()) {
-      if (node.data === data) return node;
-    }
-  }
+	const hasNext = (node) => !node.next.isTail;
 
-  delete = (data) => {
-    const node = this.find(data);
-    if (node) this.del(node);
-  }
+	const count = () => {
+		let count = 0;
+		let node = head;
+		while (hasNext(node)) {
+			++count;
+			node = node.next;
+		}
+		return count;
+	};
 
-  push = (data) => this.insert(data, this.lastNode());
+	const deleteNode = (id) => {
+		const replaceNode = (node) => {
+			node.prev.next = node.next;
+			node.next.prev = node.prev;
+		}
 
-  pop = () => this.del(this.lastNode());
+		let node = head;
 
-  shift = () => this.del(this.firstNode());
+		do {
+			node = node.next;
+			if (node.id === id) {
+				return replaceNode(node);
+			};
+		} while (hasNext(node));
+	}
 
-  unshift = (data) => this.insert(data, this.head);
-
+	return {
+		push,
+		pop,
+		shift,
+		unshift,
+		count,
+		delete: deleteNode
+	}
 }
+
+module.exports = {
+	LinkedList
+}
+
